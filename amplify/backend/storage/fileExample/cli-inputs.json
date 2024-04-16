@@ -1,0 +1,13 @@
+{
+  "resourceName": "fileExample",
+  "policyUUID": "73f39318",
+  "bucketName": "cloudcomp71ff859f40cb490ea59253e328da07a2",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

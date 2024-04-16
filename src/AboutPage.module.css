@@ -1,0 +1,46 @@
+.container {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    text-align: left;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 100%;  /* Makes the image responsive, adjusting to the container width */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 4px; /* Optional: Rounds the corners of the image */
+    margin-bottom: 20px; /* Adds space between the image and the text */
+  }
+  
+  .header {
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    color: #34495e;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  
