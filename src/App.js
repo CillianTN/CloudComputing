@@ -24,7 +24,7 @@ function App({ signOut, user }: WithAuthenticatorProps) {
           <div className={styles.container}>
             <img src="https://marketing.mtu.ie/contentfiles/images/MTU/Logos/MTU_Logo_Colour_RGB_300dpi.jpg" alt="MTU Logo" className={styles.logo} />
 
-            <h1 className={styles.heading}>Hello {user?.username} Welcome to MTU Whiteboard!</h1>
+            <h1 className={styles.heading}>Hello {user?.username} Welcome to MTU Whiteboard! An Application hosted in AWS!</h1>
             <h4 className={styles.subheading}>(This totally isn't a cheap rip off of what was once Blackboard, so don't say it is !)</h4>
             <h4 className={styles.subheading}>Use one of the options below to interact with the website. If you want to upload a document, press the 'Upload Documents' button. To view already uploaded documents, click 'Documents'.</h4>
             <button className={styles.button} onClick={handleSignOut}>
